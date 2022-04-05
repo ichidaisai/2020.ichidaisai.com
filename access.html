@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <!--文字コード指定-->
+    <meta charset="utf-8">
+
+    <!--検索エンジン対策-->
+    <meta name="description" content="広島市立大学　大学祭実行委員会">
+
+    <!--IE最適化-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--OGPの記述-->
+    <meta property="og:url" content="https://ichidaisai.com/index.html">
+    <meta property="og:title" content="広島市立大学 大学祭実行委員会">
+    <meta property="og:description" content="広島市立大学の大学祭、通称「市大祭」が今年も開催されます。こちらのホームページでは市大祭に関する開催概要やステージ企画等様々な情報を閲覧できます。出店者の方々へのお知らせも随時更新していきます。">
+    <meta property="og:image" content="https://ichidaisai.com/image/ogp.jpg">
+
+    <!--PCとモバイルの切り替え-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <!--タイトルアイコンの表示-->
+    <link rel="shortcut icon" type="./image/vnd.microsoft.icon" href="./image/favicon.ico">
+
+    <!--CSSの読み込み-->
+    <link rel="stylesheet" type="text/css" href="./css/base.css">
+    <link rel="stylesheet" type="text/css" href="./css/PC.css">
+    <link rel="stylesheet" type="text/css" href="./css/access.css">
+
+    <!--タイトル表示-->
+    <title>広島市立大学 大学祭実行委員会</title>
+
+    <!--アイコン回転機能-->
+    <script src="./javascript/icon.js"></script>
+
+  </head>
+
+  <body>
+    <header>
+      <div id="focus" onclick="focus_off()" style="z-index:999;"><img src="" id="focus_img"></div>
+      <!--トップ部分-->
+      <div class="title"><img src="./image/favicon.ico" id="top_icon">第27回 市大祭</div><br>
+      <div class="sub_title">Hiroshima City University Festival</div>
+      <!--トップ部分-->
+
+      <!--メニュー-->
+      <div class="acd_label PC"><p>MENU - Access</p>
+      </div>
+
+      <div class="mobile">
+        <input type="checkbox" id="menu_input">
+        <label for="menu_input" id="menu_open">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </label>
+        <label for="menu_input" id="menu_close">
+          <div id="menu_content">
+            <div class="x">✖</div>
+            <ul id="menu_list">
+              <a href="./index.html"><li><p>トップ</p></li></a>
+              <a href="./outline.html"><li><p>開催概要</p></li></a>
+              <a href="./stage.html"><li><p>ステージ</p></li></a>
+              <a href="./cafe.html"><li><p>カフェ・模擬店・展示</p></li></a>
+              <a href="./flea.html"><li><p>フリーマーケット</p></li></a>
+              <a href="./access.html"><li><p>アクセス</p></li></a>
+            </ul>
+          </div>
+        </label>
+      </div>
+
+      <div class="acd_label mobile"><p>Menu - Access</p></div>
+      <!--メニュー-->
+    </header>
+
+    <div style="display:flex;">
+      <div class="aside">
+
+        <div id="menu">
+          <ul>
+            <a href="./index.html"><li class="menu_list"><p>トップ</p></li></a>
+            <a href="./outline.html"><li class="menu_list"><p>開催概要</p></li></a>
+            <a href="./stage.html"><li class="menu_list"><p>ステージ</p></li></a>
+            <a href="./cafe.html"><li class="menu_list"><p>出店・展示</p></li></a>
+            <a href="./flea.html"><li class="menu_list"><p>フリーマーケット</p></li></a>
+            <a href="./access.html"><li class="menu_list"><p>アクセス</p></li></a>
+          </ul>
+        </div>
+
+      </div>
+      <main>
+        <!--アクセスマップ-->
+        <div class="head">アクセス</div>
+        <div class="body">
+          <p>広島市立大学<br>〒731-3194<br>広島県広島市安佐南区大塚東三丁目4番1号</p><br>
+          <img src="./image/access_map.jpg" class="map" onclick="focus_on('./image/access_map.jpg')">
+        </div>
+        <!--アクセスマップ-->
+        <!--google map-->
+        <div style="margin:20px;overflow:hidden;">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18615.07418957009!2d132.4184346069264!3d34.43408774728552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355a9846b8b10471%3A0xb50adccc4687ad83!2z5bqD5bO25biC56uL5aSn5a2m!5e0!3m2!1sja!2sjp!4v1586678881363!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <!--google map-->
+        <!--路線図-->
+        <table>
+          <tr><th>JRをご利用の場合</th><td>
+            <p>「JR広島駅」→ JR山陽本線・可部線(約五分)
+            <br>→ 「JR横川駅」で下車 → バス停「横川駅前」3番乗り場
+            <br>→ [63]「花の季台・こころ西風梅苑・こころ産業団地・こころ南」方面行きバス(約13分)
+            <br>→ バス停「沼田料金所前」で下車→徒歩(約8分) →「広島市立大学」</p>
+          </td></tr>
+          <tr><th>広島バスセンターをご利用の場合</th><td>
+            <p>「広島バスセンター」2番乗り場 → [64]「くすの木台」方面行きバス(約12分)
+            <br>→ バス停「市立大学前」で下車 → 徒歩(約1分) →「広島市立大学」
+            <br>「広島バスセンター」4番乗り場 → [62]・[63]「花の季台・こころ西風梅苑・こころ産業団地・こころ南」方面行きバス(約11分)
+            <br>→ バス停「沼田料金所前」で下車 → 徒歩(約8分) → 「広島市立大学」</p>
+          </td></tr>
+          <tr><th>アストラムラインをご利用の場合</th><td>
+            <p>「アストラムライン大塚駅」→ バス停「大塚駅」
+            <br>→ [60]・[61]・[62]・[63]「広島バスセンター」方面行きバス(約1分)
+            <br>→ バス停「沼田料金所前」で下車 → 徒歩(約8分) →「広島市立大学」</p>
+          </td></tr>
+          <tr><th>車をご利用の場合</th><td>
+            <p>市内中心部（紙屋町周辺）から広島高速4号線（西風新都線）経由で約12分
+            <br>山陽自動車道「五日市I.C.」から約6分
+            <br>広島自動車道「広島西風新都I.C.」から約15分
+            <br>
+            <br>駐車場には限りがありますので、お車でのご来場はなるべくご遠慮願います。
+            <br>平時の一般来学者用駐車場は本部棟横にありますが、当日等の一般開放日は別場所となります。
+            <br>当日は大学祭実行委員会等の指示に従っての駐車をお願い致します。</p>
+          </td></tr>
+        </table>
+        <!--路線図-->
+        <!--大学交通アクセスへ-->
+        <p>※詳しくは大学HPの<a href="https://www.hiroshima-cu.ac.jp/content0002/" style="color:blue;text-decoration:underline;">交通アクセス</a>のページをご覧ください.</p>
+        <!--大学交通アクセスへ-->
+      </main>
+
+      <div class="aside">
+      </div>
+
+    </div>
+
+    <footer>
+      <p class="sub_title">(c)2020~ 広島市立大学 大学祭実行委員会</p>
+    </footer>
+
+  </body>
+  <!--アイコン回転-->
+  <script>setInterval(function(){rotate("top_icon")},1000);//1000ms後にrotate関数を実行</script>
+  <!--アイコン回転-->
+
+</html>

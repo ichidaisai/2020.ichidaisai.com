@@ -1,0 +1,21 @@
+.map{
+  width:40%;
+  margin:20px;
+  transition:box-shadow 0.5s;
+}
+.map:hover{
+  box-shadow:0 0 0.313em rgba(0,0,0,.25);
+}
+table{
+  border-collapse:collapse;
+  border:2px solid black;
+  margin:10px;
+}
+th{
+  font-size:15px;
+  border:2px solid black;
+}
+td{
+  font-size:12px;
+  border:2px solid black;
+}

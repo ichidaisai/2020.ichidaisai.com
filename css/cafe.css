@@ -1,0 +1,8 @@
+.map{
+  width:40%;
+  margin:20px;
+  transition:box-shadow 0.5s;
+}
+.map:hover{
+  box-shadow:0 0 0.313em rgba(0,0,0,.25);
+}

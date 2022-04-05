@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <!--文字コード指定-->
+    <meta charset="utf-8">
+
+    <!--検索エンジン対策-->
+    <meta name="description" content="広島市立大学　大学祭実行委員会">
+
+    <!--IE最適化-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--OGPの記述-->
+    <meta property="og:url" content="https://ichidaisai.com/index.html">
+    <meta property="og:title" content="広島市立大学 大学祭実行委員会">
+    <meta property="og:description" content="広島市立大学の大学祭、通称「市大祭」が今年も開催されます。こちらのホームページでは市大祭に関する開催概要やステージ企画等様々な情報を閲覧できます。出店者の方々へのお知らせも随時更新していきます。">
+    <meta property="og:image" content="https://ichidaisai.com/image/ogp.jpg">
+
+    <!--PCとモバイルの切り替え-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <!--タイトルアイコンの表示-->
+    <link rel="shortcut icon" type="./image/vnd.microsoft.icon" href="./image/favicon.ico">
+
+    <!--CSSの読み込み-->
+    <link rel="stylesheet" type="text/css" href="./css/base.css">
+    <link rel="stylesheet" type="text/css" href="./css/PC.css">
+    <link rel="stylesheet" type="text/css" href="./css/flea.css">
+
+    <!--タイトル表示-->
+    <title>広島市立大学 大学祭実行委員会</title>
+
+    <!--アイコン回転機能-->
+    <script src="./javascript/icon.js"></script>
+
+  </head>
+
+  <body>
+    <header>
+      <div id="focus" onclick="focus_off()" style="z-index:999;"><img src="" id="focus_img"></div>
+      <!--トップ部分-->
+      <div class="title"><img src="./image/favicon.ico" id="top_icon">第27回 市大祭</div><br>
+      <div class="sub_title">Hiroshima City University Festival</div>
+      <!--トップ部分-->
+
+      <!--メニュー-->
+      <div class="acd_label PC"><p>MENU - Flea market</p>
+      </div>
+
+      <div class="mobile">
+        <input type="checkbox" id="menu_input">
+        <label for="menu_input" id="menu_open">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </label>
+        <label for="menu_input" id="menu_close">
+          <div id="menu_content">
+            <div class="x">✖</div>
+            <ul id="menu_list">
+              <a href="./index.html"><li><p>トップ</p></li></a>
+              <a href="./outline.html"><li><p>開催概要</p></li></a>
+              <a href="./stage.html"><li><p>ステージ</p></li></a>
+              <a href="./cafe.html"><li><p>カフェ・模擬店・展示</p></li></a>
+              <a href="./flea.html"><li><p>フリーマーケット</p></li></a>
+              <a href="./access.html"><li><p>アクセス</p></li></a>
+            </ul>
+          </div>
+        </label>
+      </div>
+
+      <div class="acd_label mobile"><p>Menu - Flea market</p></div>
+      <!--メニュー-->
+    </header>
+
+    <div style="display:flex;">
+      <div class="aside">
+
+        <div id="menu">
+          <ul>
+            <a href="./index.html"><li class="menu_list"><p>トップ</p></li></a>
+            <a href="./outline.html"><li class="menu_list"><p>開催概要</p></li></a>
+            <a href="./stage.html"><li class="menu_list"><p>ステージ</p></li></a>
+            <a href="./cafe.html"><li class="menu_list"><p>出店・展示</p></li></a>
+            <a href="./flea.html"><li class="menu_list"><p>フリーマーケット</p></li></a>
+            <a href="./access.html"><li class="menu_list"><p>アクセス</p></li></a>
+          </ul>
+        </div>
+
+      </div>
+      <main>
+        <!--募集要項-->
+        <div class="head">募集要項</div>
+        <div class="body">
+          <img src="./image/fleamarket.jpg" style="width:50%; margin:20px;">
+        </div>
+
+        <div class="head">出店日時</div>
+        <div class="body">
+          <p>2020年10月24日10:00~17:00
+          <br>2020年10月25日10:00~17:00</p>
+        </div>
+
+        <div class="head">出店場所</div>
+        <div class="body">
+          <table>
+            <tr>
+              <th></th><td>芝生出店</td><td>車出店</td>
+            </tr>
+            <tr>
+              <th>晴天時</th><td>屋外(1ブース: 3m × 4m)</td><td>屋外(店舗兼倉庫として車を駐車するスペース+車1台に隣接する区画1ブース: 3m × 4m)</td>
+            </tr>
+            <tr>
+              <th>雨天時</th><td>屋内(1ブース: 2m × 3m)</td><td>屋内(1ブース: 4m × 6m)</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="head">出店料金 (１日当たり)</div>
+        <div class="body">
+          <table>
+            <tr><th>新規出店者</th><td>芝生出店￥1,000<br>車出店￥2,000</td></tr>
+            <tr><th>学内・リピーター出店者</th><td>芝生出店￥800<br>車出店￥1,600</td></tr>
+          </table>
+        </div>
+
+        <div class="head">販売禁止物</div>
+        <div class="body">
+          <table>
+            <tr>
+              <th>法律に反する物品</th>
+              <td>盗品、薬物類、銃剣、海賊版のCD・DVDなど法律に反するものや、
+            ポルノ雑誌やビデオ等の社会的に好ましくないと思われる物品の販売はできません.</td>
+            </tr>
+            <tr>
+              <th>物品を伴わないサービス</th>
+              <td>マッサージや占いなど、物品の伴わないサービスの販売はできません.
+                ただし、ネイルアートのみサービスが形として残るため、例外とします.</td>
+            </tr>
+            <tr>
+              <th>宗教関係の物品販売</th>
+              <td>宗教の布教を目的とした販売、活動はお断りいたします.
+                ただし、布教を目的としない民族工芸等の販売は例外とします.</td>
+            </tr>
+            <tr>
+              <th>飲食物</th>
+              <td>食品衛生上の問題があるため、飲食物の販売はできません.</td>
+            </tr>
+            <tr>
+              <th>動植物</th>
+              <td>ペット、生き物の販売はできません.ただし、観葉植物のみ販売可能です.</td>
+            </tr>
+            <tr>
+              <th>その他</th>
+              <td>当委員会でフリーマーケットに不適切と判断したものは、販売できません.</td>
+            </tr>
+          </table>
+        </div>
+        <!--募集要項-->
+        <!--注意事項-->
+        <div class="alert">注意事項</div>
+        <div class="body">
+          <p>&emsp;当日に出店形式・ブースの変更はできません.
+          <br>&emsp;テーブル、パラソル、シート等の貸し出しは一切しません.各自でご持参ください.
+          <br>&emsp;会場、駐車場内での盗難、万引き、紛失等に関しましては当委員会では一切責任を負いかねます
+          <br>&emsp;実行委員会による見回りも行っておりますが、各自で十分ご注意ください.
+          <br>&emsp;ペット等、生き物のご同伴はご遠慮願います.ただし聴導犬、盲導犬、介助犬等の訓練犬は例外とします.
+          <br>&emsp;大学敷地内は全面喫煙禁止となっております.
+          <br>&emsp;出店者様の個人情報は大学祭での利用目的以外では使用致しません.
+          <br>&emsp;家電製品等は動作確認をし、必ず連絡先を添付しての販売をお願いします.</p>
+        </div>
+        <!--注意事項-->
+
+      </main>
+
+      <div class="aside">
+      </div>
+
+    </div>
+
+    <footer>
+      <p class="sub_title">(c)2020~ 広島市立大学 大学祭実行委員会</p>
+    </footer>
+
+  </body>
+  <!--アイコン回転-->
+  <script>setInterval(function(){rotate("top_icon")},1000);//1000ms後にrotate関数を実行</script>
+  <!--アイコン回転-->
+</html>

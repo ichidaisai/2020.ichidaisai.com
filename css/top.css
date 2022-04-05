@@ -1,0 +1,25 @@
+#news{
+  border:1px solid black;
+  margin:10px;
+  height:160px;/*1セル32px;*/
+  overflow-y:scroll;
+}
+td{
+  height:30px;
+}
+.photo{
+  width:35%;
+  height:auto;
+  padding:auto;
+  margin:auto;
+}
+.photo img{
+  width:100%;
+  height:auto;
+  display:block;
+}
+#poster{
+  border:1px solid black;
+  width:100%;
+  height:auto;
+}
